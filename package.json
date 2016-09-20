@@ -1,0 +1,31 @@
+{
+  "name": "node-todo-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-status": "^1.0.10"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-node5": "^11.1.0",
+    "babel-preset-stage-2": "^6.13.0",
+    "nodemon": "^1.10.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./lib/index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpasqualone/node-todo-api.git"
+  },
+  "author": "Richard Pasqualone / Matt Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpasqualone/node-todo-api/issues"
+  },
+  "homepage": "https://github.com/rpasqualone/node-todo-api#readme"
+}
