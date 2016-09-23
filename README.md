@@ -16,7 +16,7 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 	> npm install
 	> npm start
 ```
-The API is configured to run on port 3000.
+The API is configured to run on port 3000 with the endpoint for a "To DO" being "/todos".
 
 ####Not Familiar with Git?#####
 Click [here](https://github.com/rpasqualone/node-todo-api/archive/master.zip) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
