@@ -2,7 +2,8 @@
 	"type": "object",
 	"properties": {
 		"title": { "type": "string", "minLength": 1, "maxLength": 100 },
-		"message": { "type": "string", "minLength": 1, "maxLength": 256 }
+		"message": { "type": "string", "minLength": 1, "maxLength": 256 },
+		"done": {"type": "boolean"}
 	},
-	"required": ["title", "message"]
+	"required": ["title", "message", "done"]
 }
