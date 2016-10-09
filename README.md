@@ -25,3 +25,13 @@ Click [here](https://github.com/rpasqualone/node-todo-api/archive/master.zip) th
 	> npm install
 	> npm start
 ```
+
+###Demo###
+
+To view a live demo click [here](https://rpasqualone-node-todo-api.herokuapp.com/todos/) or visit:
+
+```
+	> https://rpasqualone-node-todo-api.herokuapp.com/todos/
+```
+
+*POST, PATCH, GET, and DELETE REST Options
