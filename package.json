@@ -21,7 +21,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./lib/index.js --exec babel-node"
+    "start": "nodemon ./lib/index.js --exec babel-node",
+    "prod": "babel-node ./lib/index.js"
   },
   "repository": {
     "type": "git",
